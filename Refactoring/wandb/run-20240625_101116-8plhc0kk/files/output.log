@@ -1,0 +1,82 @@
+
+Epoch: 1
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1/10, Train Loss: 16.0307:  92%|█████████████████████████████████████████████████████████████████████████████████████████████████████▌        | 12/13 [03:03<00:15, 15.33s/it]
+Average Train Loss: 14.1559
+Epoch 1/10, Train Loss: 3.7299: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 13/13 [03:07<00:00, 14.44s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 2/10, Train Loss: 2.4428: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 13/13 [03:06<00:00, 14.36s/it]
+  0%|                                                                                                                                                        | 0/13 [00:00<?, ?it/s]
+Average Train Loss: 14.1546
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 3/10, Train Loss: 13.4649:  92%|█████████████████████████████████████████████████████████████████████████████████████████████████████▌        | 12/13 [03:02<00:15, 15.18s/it]
+Average Train Loss: 14.1544
+Epoch 3/10, Train Loss: 3.7757: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 13/13 [03:06<00:00, 14.35s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 4/10, Train Loss: 14.8221:  92%|█████████████████████████████████████████████████████████████████████████████████████████████████████▌        | 12/13 [03:02<00:15, 15.24s/it]
+Average Train Loss: 14.1577
+Epoch 4/10, Train Loss: 5.4853: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 13/13 [03:06<00:00, 14.37s/it]
+
+Epoch 5/10, Train Loss: 14.2294:   8%|████████▌                                                                                                      | 1/13 [00:20<04:01, 20.15s/it]
+Traceback (most recent call last):
+  File "Run.py", line 32, in <module>
+    trainer.train()
+  File "/home/aikusrv02/ai_hanmuncheol/Refactoring/Train.py", line 59, in train
+    for features, labels in pbar:
+  File "/home/aikusrv02/anaconda3/envs/dashcam2/lib/python3.8/site-packages/tqdm/std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "/home/aikusrv02/anaconda3/envs/dashcam2/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/aikusrv02/anaconda3/envs/dashcam2/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/aikusrv02/anaconda3/envs/dashcam2/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/aikusrv02/anaconda3/envs/dashcam2/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/aikusrv02/ai_hanmuncheol/Refactoring/Dataset.py", line 83, in __getitem__
+    features = torch.tensor(resnet_features)
+KeyboardInterrupt

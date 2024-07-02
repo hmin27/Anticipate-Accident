@@ -1,0 +1,360 @@
+2024-06-24 20:30:36,628 INFO    StreamThr :1236291 [internal.py:wandb_internal():85] W&B internal server running at pid: 1236291, started at: 2024-06-24 20:30:36.626464
+2024-06-24 20:30:36,631 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status
+2024-06-24 20:30:36,641 INFO    WriterThread:1236291 [datastore.py:open_for_write():87] open: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/run-dbxxf19h.wandb
+2024-06-24 20:30:36,642 DEBUG   SenderThread:1236291 [sender.py:send():379] send: header
+2024-06-24 20:30:36,644 DEBUG   SenderThread:1236291 [sender.py:send():379] send: run
+2024-06-24 20:30:37,237 INFO    SenderThread:1236291 [dir_watcher.py:__init__():211] watching files in: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files
+2024-06-24 20:30:37,238 INFO    SenderThread:1236291 [sender.py:_start_run_threads():1188] run started: dbxxf19h with start time 1719261036.628584
+2024-06-24 20:30:37,260 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: check_version
+2024-06-24 20:30:37,261 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: check_version
+2024-06-24 20:30:37,326 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: run_start
+2024-06-24 20:30:37,390 DEBUG   HandlerThread:1236291 [system_info.py:__init__():26] System info init
+2024-06-24 20:30:37,391 DEBUG   HandlerThread:1236291 [system_info.py:__init__():41] System info init done
+2024-06-24 20:30:37,391 INFO    HandlerThread:1236291 [system_monitor.py:start():194] Starting system monitor
+2024-06-24 20:30:37,391 INFO    SystemMonitor:1236291 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-24 20:30:37,392 INFO    HandlerThread:1236291 [system_monitor.py:probe():214] Collecting system info
+2024-06-24 20:30:37,393 INFO    SystemMonitor:1236291 [interfaces.py:start():188] Started cpu monitoring
+2024-06-24 20:30:37,394 INFO    SystemMonitor:1236291 [interfaces.py:start():188] Started disk monitoring
+2024-06-24 20:30:37,396 INFO    SystemMonitor:1236291 [interfaces.py:start():188] Started gpu monitoring
+2024-06-24 20:30:37,397 INFO    SystemMonitor:1236291 [interfaces.py:start():188] Started memory monitoring
+2024-06-24 20:30:37,398 INFO    SystemMonitor:1236291 [interfaces.py:start():188] Started network monitoring
+2024-06-24 20:30:37,491 DEBUG   HandlerThread:1236291 [system_info.py:probe():152] Probing system
+2024-06-24 20:30:37,503 DEBUG   HandlerThread:1236291 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-24 20:30:37,504 DEBUG   HandlerThread:1236291 [system_info.py:probe():200] Probing system done
+2024-06-24 20:30:37,504 DEBUG   HandlerThread:1236291 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-112-generic-x86_64-with-glibc2.17', 'python': '3.8.19', 'heartbeatAt': '2024-06-24T20:30:37.491654', 'startedAt': '2024-06-24T20:30:36.598381', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'Run.py', 'codePathLocal': 'Run.py', 'codePath': 'Run.py', 'host': 'aikusrv02', 'username': 'aikusrv02', 'executable': '/home/aikusrv02/anaconda3/envs/dashcam2/bin/python', 'cpu_count': 24, 'cpu_count_logical': 48, 'cpu_freq': {'current': 1372.9096458333333, 'min': 1200.0, 'max': 2900.0}, 'cpu_freq_per_core': [{'current': 1199.945, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.946, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.945, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.945, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}, {'current': 2900.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.945, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.944, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.941, 'min': 1200.0, 'max': 2900.0}, {'current': 1900.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1900.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.946, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.945, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.942, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.942, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.944, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.943, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.943, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.944, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.943, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.943, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.943, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.943, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}, {'current': 2900.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.944, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.943, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.943, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.943, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1199.944, 'min': 1200.0, 'max': 2900.0}, {'current': 2900.0, 'min': 1200.0, 'max': 2900.0}, {'current': 1200.0, 'min': 1200.0, 'max': 2900.0}], 'disk': {'/': {'total': 1678.5863151550293, 'used': 354.9034881591797}}, 'gpu': 'NVIDIA TITAN Xp', 'gpu_count': 8, 'gpu_devices': [{'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}], 'memory': {'total': 125.75889587402344}}
+2024-06-24 20:30:37,504 INFO    HandlerThread:1236291 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-24 20:30:37,504 INFO    HandlerThread:1236291 [system_monitor.py:probe():227] Publishing system info
+2024-06-24 20:30:37,504 DEBUG   HandlerThread:1236291 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-06-24 20:30:38,242 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_created():271] file/dir created: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/conda-environment.yaml
+2024-06-24 20:30:41,745 DEBUG   HandlerThread:1236291 [system_info.py:_save_conda():224] Saving conda packages done
+2024-06-24 20:30:41,749 INFO    HandlerThread:1236291 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-24 20:30:41,757 DEBUG   SenderThread:1236291 [sender.py:send():379] send: files
+2024-06-24 20:30:41,757 INFO    SenderThread:1236291 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-06-24 20:30:41,758 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:30:41,982 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-24 20:30:41,983 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 20:30:41,983 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: python_packages
+2024-06-24 20:30:41,985 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 20:30:41,990 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:30:42,241 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/conda-environment.yaml
+2024-06-24 20:30:42,241 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_created():271] file/dir created: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/requirements.txt
+2024-06-24 20:30:42,242 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_created():271] file/dir created: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/wandb-metadata.json
+2024-06-24 20:30:42,356 DEBUG   SenderThread:1236291 [sender.py:send():379] send: telemetry
+2024-06-24 20:30:42,650 INFO    wandb-upload_0:1236291 [upload_job.py:push():130] Uploaded file /tmp/tmp2_lgorw1wandb/hhinb6sh-wandb-metadata.json
+2024-06-24 20:30:43,238 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:30:43,242 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_created():271] file/dir created: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/output.log
+2024-06-24 20:30:44,382 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:30:45,244 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/output.log
+2024-06-24 20:30:45,517 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:30:46,638 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:30:47,151 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:30:47,786 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:30:48,917 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:30:50,036 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:30:51,258 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:30:51,784 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-24 20:30:51,787 DEBUG   SenderThread:1236291 [sender.py:send():379] send: history
+2024-06-24 20:30:51,788 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: summary_record
+2024-06-24 20:30:51,794 INFO    SenderThread:1236291 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-24 20:30:52,250 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_created():271] file/dir created: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/wandb-summary.json
+2024-06-24 20:30:52,358 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:30:52,367 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:30:53,251 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/output.log
+2024-06-24 20:30:53,399 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:30:54,495 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:30:55,628 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:30:56,665 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:30:57,269 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 20:30:57,270 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 20:30:57,544 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:30:57,908 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:30:59,055 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:00,131 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:00,972 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-24 20:31:00,973 DEBUG   SenderThread:1236291 [sender.py:send():379] send: history
+2024-06-24 20:31:00,974 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: summary_record
+2024-06-24 20:31:00,979 INFO    SenderThread:1236291 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-24 20:31:01,131 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:01,257 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/wandb-summary.json
+2024-06-24 20:31:02,226 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:02,627 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:31:03,148 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:03,260 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/output.log
+2024-06-24 20:31:04,223 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:05,272 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:06,386 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:07,457 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:08,496 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:08,575 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:31:09,267 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/config.yaml
+2024-06-24 20:31:09,562 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:09,872 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-24 20:31:09,877 DEBUG   SenderThread:1236291 [sender.py:send():379] send: history
+2024-06-24 20:31:09,878 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: summary_record
+2024-06-24 20:31:09,887 INFO    SenderThread:1236291 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-24 20:31:10,268 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/wandb-summary.json
+2024-06-24 20:31:10,502 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:11,589 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:12,269 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 20:31:12,271 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 20:31:12,692 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:13,278 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/output.log
+2024-06-24 20:31:13,795 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:14,694 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:31:14,970 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:16,070 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:17,186 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:18,474 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:19,312 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-24 20:31:19,313 DEBUG   SenderThread:1236291 [sender.py:send():379] send: history
+2024-06-24 20:31:19,314 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: summary_record
+2024-06-24 20:31:19,320 INFO    SenderThread:1236291 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-24 20:31:19,440 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:20,285 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/wandb-summary.json
+2024-06-24 20:31:20,358 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:31:20,480 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:21,287 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/output.log
+2024-06-24 20:31:21,484 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:22,566 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:23,573 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:24,609 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:25,747 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:26,071 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:31:26,827 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:27,373 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 20:31:27,374 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 20:31:27,880 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:28,180 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-24 20:31:28,182 DEBUG   SenderThread:1236291 [sender.py:send():379] send: history
+2024-06-24 20:31:28,183 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: summary_record
+2024-06-24 20:31:28,189 INFO    SenderThread:1236291 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-24 20:31:28,294 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/wandb-summary.json
+2024-06-24 20:31:28,894 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:29,295 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/output.log
+2024-06-24 20:31:30,053 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:31,116 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:31,229 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:31:32,248 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:33,358 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:34,384 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:35,434 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:36,590 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:36,851 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:31:37,398 DEBUG   SystemMonitor:1236291 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-24 20:31:37,404 DEBUG   SenderThread:1236291 [sender.py:send():379] send: stats
+2024-06-24 20:31:37,460 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-24 20:31:37,461 DEBUG   SenderThread:1236291 [sender.py:send():379] send: history
+2024-06-24 20:31:37,462 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: summary_record
+2024-06-24 20:31:37,463 INFO    SenderThread:1236291 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-24 20:31:37,583 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:38,305 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/wandb-summary.json
+2024-06-24 20:31:38,581 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:39,306 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/output.log
+2024-06-24 20:31:39,635 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:40,934 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:41,983 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:31:42,138 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:42,654 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 20:31:42,655 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 20:31:43,196 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:44,329 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:45,441 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:46,522 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:46,839 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-24 20:31:46,842 DEBUG   SenderThread:1236291 [sender.py:send():379] send: history
+2024-06-24 20:31:46,843 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: summary_record
+2024-06-24 20:31:46,848 INFO    SenderThread:1236291 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-24 20:31:47,322 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/wandb-summary.json
+2024-06-24 20:31:47,478 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:47,884 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:31:48,799 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:49,324 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/output.log
+2024-06-24 20:31:49,887 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:50,973 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:52,067 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:53,117 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:53,154 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:31:54,180 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:55,214 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:56,177 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-24 20:31:56,179 DEBUG   SenderThread:1236291 [sender.py:send():379] send: history
+2024-06-24 20:31:56,180 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: summary_record
+2024-06-24 20:31:56,182 INFO    SenderThread:1236291 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-24 20:31:56,218 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:56,331 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/wandb-summary.json
+2024-06-24 20:31:57,218 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:57,333 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/output.log
+2024-06-24 20:31:57,775 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 20:31:57,778 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 20:31:58,304 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:31:58,306 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:31:59,374 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:32:00,452 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:32:01,530 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:32:02,582 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:32:03,309 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:32:03,646 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:32:04,831 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:32:05,122 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-24 20:32:05,124 DEBUG   SenderThread:1236291 [sender.py:send():379] send: history
+2024-06-24 20:32:05,124 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: summary_record
+2024-06-24 20:32:05,130 INFO    SenderThread:1236291 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-24 20:32:05,338 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/wandb-summary.json
+2024-06-24 20:32:05,781 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:32:06,782 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:32:07,342 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/output.log
+2024-06-24 20:32:07,413 DEBUG   SenderThread:1236291 [sender.py:send():379] send: stats
+2024-06-24 20:32:07,868 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:32:08,417 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:32:09,012 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:32:10,096 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:32:11,181 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:32:12,346 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:32:12,906 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 20:32:12,907 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 20:32:13,421 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:32:13,940 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:32:14,204 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-24 20:32:14,208 DEBUG   SenderThread:1236291 [sender.py:send():379] send: history
+2024-06-24 20:32:14,208 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: summary_record
+2024-06-24 20:32:14,209 INFO    SenderThread:1236291 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-24 20:32:14,253 DEBUG   SenderThread:1236291 [sender.py:send():379] send: exit
+2024-06-24 20:32:14,253 INFO    SenderThread:1236291 [sender.py:send_exit():586] handling exit code: 1
+2024-06-24 20:32:14,254 INFO    SenderThread:1236291 [sender.py:send_exit():588] handling runtime: 96
+2024-06-24 20:32:14,255 INFO    SenderThread:1236291 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-24 20:32:14,256 INFO    SenderThread:1236291 [sender.py:send_exit():594] send defer
+2024-06-24 20:32:14,256 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 20:32:14,257 INFO    HandlerThread:1236291 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-24 20:32:14,257 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: defer
+2024-06-24 20:32:14,257 INFO    SenderThread:1236291 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-06-24 20:32:14,258 INFO    SenderThread:1236291 [sender.py:transition_state():614] send defer: 1
+2024-06-24 20:32:14,258 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 20:32:14,258 INFO    HandlerThread:1236291 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-24 20:32:14,259 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: defer
+2024-06-24 20:32:14,259 INFO    SenderThread:1236291 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-06-24 20:32:14,259 INFO    SenderThread:1236291 [sender.py:transition_state():614] send defer: 2
+2024-06-24 20:32:14,259 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 20:32:14,259 INFO    HandlerThread:1236291 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-24 20:32:14,260 INFO    HandlerThread:1236291 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-24 20:32:14,260 DEBUG   SystemMonitor:1236291 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-24 20:32:14,260 DEBUG   SystemMonitor:1236291 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-24 20:32:14,263 INFO    HandlerThread:1236291 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-24 20:32:14,263 INFO    HandlerThread:1236291 [interfaces.py:finish():200] Joined disk monitor
+2024-06-24 20:32:14,350 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/wandb-summary.json
+2024-06-24 20:32:14,949 INFO    HandlerThread:1236291 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-24 20:32:14,951 INFO    HandlerThread:1236291 [interfaces.py:finish():200] Joined memory monitor
+2024-06-24 20:32:14,952 INFO    HandlerThread:1236291 [interfaces.py:finish():200] Joined network monitor
+2024-06-24 20:32:14,954 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: defer
+2024-06-24 20:32:14,954 INFO    SenderThread:1236291 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-06-24 20:32:14,954 INFO    SenderThread:1236291 [sender.py:transition_state():614] send defer: 3
+2024-06-24 20:32:14,955 DEBUG   SenderThread:1236291 [sender.py:send():379] send: stats
+2024-06-24 20:32:14,955 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 20:32:14,957 INFO    HandlerThread:1236291 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-24 20:32:14,958 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: defer
+2024-06-24 20:32:14,958 INFO    SenderThread:1236291 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-06-24 20:32:14,958 INFO    SenderThread:1236291 [sender.py:transition_state():614] send defer: 4
+2024-06-24 20:32:14,958 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 20:32:14,959 INFO    HandlerThread:1236291 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-24 20:32:14,959 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: defer
+2024-06-24 20:32:14,959 INFO    SenderThread:1236291 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-06-24 20:32:14,959 INFO    SenderThread:1236291 [sender.py:transition_state():614] send defer: 5
+2024-06-24 20:32:14,960 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 20:32:14,960 INFO    HandlerThread:1236291 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-24 20:32:14,961 DEBUG   SenderThread:1236291 [sender.py:send():379] send: summary
+2024-06-24 20:32:14,964 INFO    SenderThread:1236291 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-24 20:32:14,965 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: defer
+2024-06-24 20:32:14,965 INFO    SenderThread:1236291 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-06-24 20:32:14,966 INFO    SenderThread:1236291 [sender.py:transition_state():614] send defer: 6
+2024-06-24 20:32:14,966 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 20:32:14,966 INFO    HandlerThread:1236291 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-24 20:32:14,967 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: defer
+2024-06-24 20:32:14,967 INFO    SenderThread:1236291 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-06-24 20:32:14,967 INFO    SenderThread:1236291 [sender.py:transition_state():614] send defer: 7
+2024-06-24 20:32:14,967 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 20:32:14,967 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 20:32:14,968 INFO    HandlerThread:1236291 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-24 20:32:14,968 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: defer
+2024-06-24 20:32:14,968 INFO    SenderThread:1236291 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-06-24 20:32:15,252 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 20:32:15,352 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/output.log
+2024-06-24 20:32:15,352 INFO    Thread-12 :1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/wandb-summary.json
+2024-06-24 20:32:16,513 INFO    SenderThread:1236291 [sender.py:transition_state():614] send defer: 8
+2024-06-24 20:32:16,513 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: poll_exit
+2024-06-24 20:32:16,513 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 20:32:16,514 INFO    HandlerThread:1236291 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-24 20:32:16,515 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: defer
+2024-06-24 20:32:16,515 INFO    SenderThread:1236291 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-06-24 20:32:16,515 INFO    SenderThread:1236291 [job_builder.py:build():440] Attempting to build job artifact
+2024-06-24 20:32:16,517 INFO    SenderThread:1236291 [job_builder.py:_get_source_type():580] no source found
+2024-06-24 20:32:16,517 INFO    SenderThread:1236291 [sender.py:transition_state():614] send defer: 9
+2024-06-24 20:32:16,518 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 20:32:16,518 INFO    HandlerThread:1236291 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-24 20:32:16,518 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: defer
+2024-06-24 20:32:16,519 INFO    SenderThread:1236291 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-06-24 20:32:16,519 INFO    SenderThread:1236291 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-24 20:32:17,257 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 20:32:17,355 INFO    SenderThread:1236291 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/output.log
+2024-06-24 20:32:17,355 INFO    SenderThread:1236291 [dir_watcher.py:finish():388] scan: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files
+2024-06-24 20:32:17,356 INFO    SenderThread:1236291 [dir_watcher.py:finish():402] scan save: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/wandb-metadata.json wandb-metadata.json
+2024-06-24 20:32:17,356 INFO    SenderThread:1236291 [dir_watcher.py:finish():402] scan save: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/wandb-summary.json wandb-summary.json
+2024-06-24 20:32:17,357 INFO    SenderThread:1236291 [dir_watcher.py:finish():402] scan save: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/requirements.txt requirements.txt
+2024-06-24 20:32:17,357 INFO    SenderThread:1236291 [dir_watcher.py:finish():402] scan save: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/output.log output.log
+2024-06-24 20:32:17,365 INFO    SenderThread:1236291 [dir_watcher.py:finish():402] scan save: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/config.yaml config.yaml
+2024-06-24 20:32:17,371 INFO    SenderThread:1236291 [dir_watcher.py:finish():402] scan save: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/conda-environment.yaml conda-environment.yaml
+2024-06-24 20:32:17,377 INFO    SenderThread:1236291 [sender.py:transition_state():614] send defer: 10
+2024-06-24 20:32:17,378 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: poll_exit
+2024-06-24 20:32:17,379 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 20:32:17,379 INFO    HandlerThread:1236291 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-24 20:32:17,392 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: defer
+2024-06-24 20:32:17,392 INFO    SenderThread:1236291 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-06-24 20:32:17,392 INFO    SenderThread:1236291 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-24 20:32:17,866 INFO    wandb-upload_0:1236291 [upload_job.py:push():130] Uploaded file /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/wandb-summary.json
+2024-06-24 20:32:18,059 INFO    wandb-upload_3:1236291 [upload_job.py:push():130] Uploaded file /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/config.yaml
+2024-06-24 20:32:18,064 INFO    wandb-upload_4:1236291 [upload_job.py:push():130] Uploaded file /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/conda-environment.yaml
+2024-06-24 20:32:18,072 INFO    wandb-upload_1:1236291 [upload_job.py:push():130] Uploaded file /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/requirements.txt
+2024-06-24 20:32:18,254 INFO    wandb-upload_2:1236291 [upload_job.py:push():130] Uploaded file /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/files/output.log
+2024-06-24 20:32:18,261 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 20:32:18,262 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: poll_exit
+2024-06-24 20:32:18,455 INFO    Thread-11 :1236291 [sender.py:transition_state():614] send defer: 11
+2024-06-24 20:32:18,456 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 20:32:18,456 INFO    HandlerThread:1236291 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-24 20:32:18,457 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: defer
+2024-06-24 20:32:18,457 INFO    SenderThread:1236291 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-06-24 20:32:18,458 INFO    SenderThread:1236291 [file_pusher.py:join():175] waiting for file pusher
+2024-06-24 20:32:18,459 INFO    SenderThread:1236291 [sender.py:transition_state():614] send defer: 12
+2024-06-24 20:32:18,459 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 20:32:18,459 INFO    HandlerThread:1236291 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-24 20:32:18,460 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: defer
+2024-06-24 20:32:18,460 INFO    SenderThread:1236291 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-06-24 20:32:18,460 INFO    SenderThread:1236291 [file_stream.py:finish():601] file stream finish called
+2024-06-24 20:32:18,667 INFO    SenderThread:1236291 [file_stream.py:finish():605] file stream finish is done
+2024-06-24 20:32:18,667 INFO    SenderThread:1236291 [sender.py:transition_state():614] send defer: 13
+2024-06-24 20:32:18,668 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 20:32:18,668 INFO    HandlerThread:1236291 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-24 20:32:18,670 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: defer
+2024-06-24 20:32:18,670 INFO    SenderThread:1236291 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-06-24 20:32:18,670 INFO    SenderThread:1236291 [sender.py:transition_state():614] send defer: 14
+2024-06-24 20:32:18,671 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 20:32:18,672 DEBUG   SenderThread:1236291 [sender.py:send():379] send: final
+2024-06-24 20:32:18,672 INFO    HandlerThread:1236291 [handler.py:handle_request_defer():184] handle defer: 14
+2024-06-24 20:32:18,672 DEBUG   SenderThread:1236291 [sender.py:send():379] send: footer
+2024-06-24 20:32:18,673 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: defer
+2024-06-24 20:32:18,673 INFO    SenderThread:1236291 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-06-24 20:32:18,675 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 20:32:18,675 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: poll_exit
+2024-06-24 20:32:18,677 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: server_info
+2024-06-24 20:32:18,677 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: server_info
+2024-06-24 20:32:18,684 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 20:32:18,685 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: get_summary
+2024-06-24 20:32:18,686 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: sampled_history
+2024-06-24 20:32:18,688 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 20:32:18,919 DEBUG   SenderThread:1236291 [sender.py:send_request():406] send_request: poll_exit
+2024-06-24 20:32:18,921 INFO    MainThread:1236291 [wandb_run.py:_footer_history_summary_info():3988] rendering history
+2024-06-24 20:32:18,922 INFO    MainThread:1236291 [wandb_run.py:_footer_history_summary_info():4020] rendering summary
+2024-06-24 20:32:18,923 INFO    MainThread:1236291 [wandb_run.py:_footer_sync_info():3947] logging synced files
+2024-06-24 20:32:18,925 DEBUG   HandlerThread:1236291 [handler.py:handle_request():158] handle_request: shutdown
+2024-06-24 20:32:18,925 INFO    HandlerThread:1236291 [handler.py:finish():882] shutting down handler
+2024-06-24 20:32:19,686 INFO    WriterThread:1236291 [datastore.py:close():296] close: /home/aikusrv02/ai_hanmuncheol/Refactoring/wandb/run-20240624_203036-dbxxf19h/run-dbxxf19h.wandb
+2024-06-24 20:32:19,921 INFO    SenderThread:1236291 [sender.py:finish():1608] shutting down sender
+2024-06-24 20:32:19,922 INFO    SenderThread:1236291 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-24 20:32:19,922 INFO    SenderThread:1236291 [file_pusher.py:join():175] waiting for file pusher

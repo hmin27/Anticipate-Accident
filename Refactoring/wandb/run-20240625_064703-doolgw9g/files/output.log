@@ -1,0 +1,9 @@
+
+  0%|                                                                                                           | 0/30 [00:00<?, ?it/s]
+  0%|                                                                                                           | 0/30 [00:07<?, ?it/s]
+Traceback (most recent call last):
+  File "Run.py", line 32, in <module>
+    trainer.train()
+  File "/home/aikusrv02/ai_hanmuncheol/Refactoring/Train.py", line 69, in train
+    preds,_ = self.decoder(features).squeeze(-1)  # [batch_size, frames=100]
+AttributeError: 'tuple' object has no attribute 'squeeze'
