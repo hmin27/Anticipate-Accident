@@ -7,9 +7,9 @@ Current Status: The model has been re-implemented with an RNN (LSTM) and dynamic
 Future Work: Plan to enhance the architecture using transformer-based models or by incorporating segmentation and point tracking in 3D space.
 
 # Features
-RNN (LSTM) with Soft Attention: Utilizes Long Short-Term Memory (LSTM) networks combined with a dynamic soft attention mechanism to process sequential video frames.
-Object Detection: Integrates state-of-the-art object detection models (e.g., YOLO) to identify and focus on relevant objects within the video frames.
-Anticipation of Accidents: Predicts the likelihood of an accident occurring in the near future by analyzing the sequence of frames and the detected objects.
+- **LSTM with Soft Attention**: Utilizes Long Short-Term Memory (LSTM) networks combined with a dynamic soft attention mechanism to process sequential video frames.
+- **Object Detection**: Integrates state-of-the-art object detection model, YOLO, to identify and focus on relevant objects within the video frames.
+- **Anticipation of Accidents**: Predicts the likelihood of an accident occurring in the near future by analyzing the sequence of frames and the detected objects.
 
 # Requirements
 python 3.8
@@ -47,5 +47,5 @@ python Visualization.py
 
 </br>
 </br>
-This project was conducted in the first semester of 2024 with 2 team members at Korea University.
+This toy project was conducted in the first semester of 2024 with two team members at Korea University.
 
