@@ -19,7 +19,31 @@ Matplotlib
 Numpy
 
 # Dataset
-For the datset, [Dashcam videos] ([링크](https://aliensunmin.github.io/project/dashcam/)) are used. The dataset consists of 620 videos captured in six major cities in Taiwan. Our diverse accidents include: 42.6% motorbike hits car, 19.7% car hits car, 15.6% motorbike hits motorbike, and 20% other type.
+For the datset, [Dashcam videos](https://aliensunmin.github.io/project/dashcam/) are used. The dataset consists of 620 videos captured in six major cities in Taiwan. Our diverse accidents include: 42.6% motorbike hits car, 19.7% car hits car, 15.6% motorbike hits motorbike, and 20% other type.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8a2c7d85-c2cf-49ff-8c23-40ec8b3e056e">
+</p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/337020a7-004b-4ccd-8525-96a3de07e7e0">
 </p>
+
+# How to rum
+```
+conda create --name dashcam python=3.8
+conda activate dashcam
+conda install pytorch torchvision torchaudio -c pytorch -c nvidia
+git clone https://github.com/hmin27/Anticipate-Accident.git
+```
+
+For training
+```
+python Run.py
+```
+
+For Visualization
+```
+python Visualization.py
+```
+
+This project was conducted in the first semester of 2024 with 2 team members at Korea University.
+
