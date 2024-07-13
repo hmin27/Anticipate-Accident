@@ -27,7 +27,7 @@ For the datset, [Dashcam videos](https://aliensunmin.github.io/project/dashcam/)
   <img src="https://github.com/user-attachments/assets/337020a7-004b-4ccd-8525-96a3de07e7e0">
 </p>
 
-# How to rum
+# How to run
 ```
 conda create --name dashcam python=3.8
 conda activate dashcam
@@ -45,5 +45,7 @@ For Visualization
 python Visualization.py
 ```
 
+</br>
+</br>
 This project was conducted in the first semester of 2024 with 2 team members at Korea University.
 
